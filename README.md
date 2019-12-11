@@ -1,2 +1,2 @@
-# Different-C-Algorithms
+# Different C++ Algorithms
 This is going to be like your average garbage file directory, for projects that aren't that good, but not absolute trash, and you still want to keep them...
