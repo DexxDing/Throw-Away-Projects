@@ -1,0 +1,23 @@
+﻿  main_test.cpp
+c:\users\никита\desktop\проекты ++с\flocking\flocking\boids.hpp(19): warning C4305: инициализация: усечение из "double" в "float"
+c:\users\никита\desktop\проекты ++с\flocking\flocking\boids.hpp(20): warning C4305: инициализация: усечение из "double" в "float"
+c:\users\никита\desktop\проекты ++с\flocking\flocking\boids.hpp(21): warning C4305: инициализация: усечение из "double" в "float"
+c:\users\никита\desktop\проекты ++с\flocking\flocking\boids.hpp(22): warning C4305: инициализация: усечение из "double" в "float"
+c:\users\никита\desktop\проекты ++с\flocking\flocking\boids.hpp(23): warning C4305: инициализация: усечение из "double" в "float"
+c:\users\никита\desktop\проекты ++с\flocking\flocking\boids.hpp(56): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\никита\desktop\проекты ++с\flocking\flocking\boids.hpp(91): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\никита\desktop\проекты ++с\flocking\flocking\boids.hpp(104): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\никита\desktop\проекты ++с\flocking\flocking\main_test.cpp(49): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+c:\users\никита\desktop\проекты ++с\flocking\flocking\main_test.cpp(168): warning C4244: аргумент: преобразование "double" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\sfml-2.5.1-32\include\sfml\system\vector2.hpp(115): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+  c:\sfml-2.5.1-32\include\sfml\system\vector2.hpp(113): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\никита\desktop\проекты ++с\flocking\flocking\boids.hpp(51): note: выполняется компиляция ссылки на экземпляр шаблон функции "float sf::Vector2<float>::getAngle(void) const"
+  c:\sfml-2.5.1-32\include\sfml\graphics\transformable.hpp(319): note: выполняется компиляция ссылки на экземпляр шаблон класс "sf::Vector2<float>"
+c:\sfml-2.5.1-32\include\sfml\system\vector2.hpp(117): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+c:\sfml-2.5.1-32\include\sfml\system\vector2.hpp(123): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+c:\sfml-2.5.1-32\include\sfml\system\vector2.hpp(126): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+c:\sfml-2.5.1-32\include\sfml\system\vector2.hpp(128): warning C4244: return: преобразование "double" в "float", возможна потеря данных
