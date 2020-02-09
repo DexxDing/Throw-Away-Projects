@@ -1,5 +1,5 @@
 # Functional Hilbert
-This is basic haskell realization of hilbert curve.
+This is basic haskell realization of hilbert curve, using Diagrams package.
 Has coloured and non coloured drawing function.
 
 ### This is basically whole code for calculating hilbert curve:
