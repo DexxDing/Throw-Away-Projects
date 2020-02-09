@@ -39,7 +39,7 @@ For other file formats check files named **[REDACTED]** in the main folder
 
 ## Author's small talk (i dont know smalltalk tho):
 
-Before code was smaller, but i decided to add some redibility.
+Before code was *smaller*, but i decided to add some ***readibility***.
 Alignment isn't necessary (it's actually an extremely bad habit) but i think it looks better that way.
 
 I've been using this package for literally 1 day, so i am sure that code can be smaller.
