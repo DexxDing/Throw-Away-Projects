@@ -30,11 +30,19 @@ strokeFractal = mconcat . colourize . explodeTrail
   <tr>
     <th class="tg-yw4l"><img src="h-small.png"></th>
     <th class="tg-yw4l"><img src="h-animated.png"></th>
-    <th class="tg-yw4l"><img src="h.png"></th>
+    <th class="tg-yw4l"><img src="peano-small.png"></th>
   </tr>
 
 </table>
 
-For other file formats check files named h.* in main repo folder
+For other file formats check files named **[REDACTED]** in the main folder
 
+## Author's small talk (i dont know smalltalk tho):
 
+Before code was smaller, but i decided to add some redibility.
+Alignment isn't necessary (it's actually an extremely bad habit) but i think it looks better that way.
+
+I've been using this package for literally 1 day, so i am sure that code can be smaller.
+
+<br/>
+PDF animation is 200iq; big brain time.
