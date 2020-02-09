@@ -16,16 +16,13 @@ hilbert n = hilbert (n-1)  # rotateBy (1/4) # reflectY <> vrule 1
 ```
 ### This is whole coloured drawing:
 ```
-drawHilbertColor n
-    = frame 1
-    $ mconcat
-    $ zipWith lc =<< colors . length
-    $ map (lineCap LineCapRound . strokeLocT)
-    $ explodeTrail
-    $ hilbert n `at` origin
+drawHilbertColor n = (hilbert n `at` origin)
+    # explodeTrail # map (lineCap LineCapRound . strokeLocT)
+    # (zipWith lc =<< colors . length) # mconcat
   where
     colors n = cycle $ map makeColor [0,360 / realToFrac n..360]
     makeColor a = uncurryRGB sRGB $ hsv a 1 1
+© 2020 GitHub, Inc.
 ```
 
 ## Output
