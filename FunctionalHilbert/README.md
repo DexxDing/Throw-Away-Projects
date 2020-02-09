@@ -12,3 +12,8 @@ hilbert n = hilbert (n-1)  # rotateBy (1/4) # reflectY <> vrule 1
          <> hilbert (n-1) <> vrule (-1)
          <> hilbert (n-1)  # rotateBy (1/4) # reflectX
 ```
+
+## Output
+<img src="h.png" width="400rem">
+
+For other file formats check files named h.* in main repo folder
