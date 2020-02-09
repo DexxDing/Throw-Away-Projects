@@ -22,7 +22,6 @@ drawHilbertColor n = (hilbert n `at` origin)
   where
     colors n = cycle $ map makeColor [0,360 / realToFrac n..360]
     makeColor a = uncurryRGB sRGB $ hsv a 1 1
-© 2020 GitHub, Inc.
 ```
 
 ## Output
