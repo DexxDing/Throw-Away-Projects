@@ -2,7 +2,7 @@
 This is basic haskell realization of hilbert curve.
 Has coloured and non coloured drawing function.
 
-### This is basically whole code:
+### This is basically whole code for calculating hilbert curve:
 
 ```
 hilbert :: Int -> Trail V2 Double
