@@ -2,6 +2,8 @@
 This is basic haskell realization of hilbert curve, using Diagrams package.
 Has coloured and non coloured drawing function.
 
+--to add animation - open pdf :)
+
 ### This is basically whole code for calculating hilbert curve:
 
 ```
@@ -30,3 +32,5 @@ drawHilbertColor n
 <img src="h.png" width="400rem">
 
 For other file formats check files named h.* in main repo folder
+
+
