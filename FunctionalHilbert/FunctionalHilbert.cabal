@@ -1,0 +1,60 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 20a063aab9c21a30d59fd27205e98ed14a749559aad323b913d4a4784616e18e
+
+name:           FunctionalHilbert
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/FunctionalHilbert#readme>
+homepage:       https://github.com/githubuser/FunctionalHilbert#readme
+bug-reports:    https://github.com/githubuser/FunctionalHilbert/issues
+author:         Ursol Nikita
+maintainer:     nikita20001116@google.com
+copyright:      2020 Ursol Nikita
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/FunctionalHilbert
+
+library
+  exposed-modules:
+      Hilbert
+  other-modules:
+      Paths_FunctionalHilbert
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , colour
+    , diagrams >=1.4
+    , diagrams-lib
+    , diagrams-rasterific ==1.4.*
+    , diagrams-svg
+    , palette
+  default-language: Haskell2010
+
+executable FunctionalHilbert
+  main-is: Main.hs
+  other-modules:
+      Paths_FunctionalHilbert
+  hs-source-dirs:
+      app
+  ghc-options: -O2 -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      FunctionalHilbert
+    , base >=4.7 && <5
+    , colour
+    , diagrams >=1.4
+    , diagrams-lib
+    , diagrams-rasterific ==1.4.*
+    , diagrams-svg
+    , palette
+  default-language: Haskell2010
