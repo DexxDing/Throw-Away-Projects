@@ -32,9 +32,9 @@ drawHilbertColor n
 
 <table class="tg">
   <tr>
-    <th class="tg-yw4l"><img src="h-small.png" width="400rem"></th>
-    <th class="tg-yw4l"><img src="h.png" width="400rem"></th>
-    <th class="tg-yw4l"><img src="h-animated.png" width="400rem"></th>
+    <th class="tg-yw4l"><img src="h-small.png"></th>
+    <th class="tg-yw4l"><img src="h-animated.png"></th>
+    <th class="tg-yw4l"><img src="h.png"></th>
   </tr>
 
 </table>
