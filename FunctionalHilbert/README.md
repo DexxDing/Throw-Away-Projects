@@ -29,7 +29,15 @@ drawHilbertColor n
 ```
 
 ## Output
-<img src="h.png" width="400rem">
+
+<table class="tg">
+  <tr>
+    <th class="tg-yw4l"><img src="h-small.png" width="400rem"></th>
+    <th class="tg-yw4l"><img src="h.png" width="400rem"></th>
+    <th class="tg-yw4l"><img src="h-animated.png" width="400rem"></th>
+  </tr>
+
+</table>
 
 For other file formats check files named h.* in main repo folder
 
