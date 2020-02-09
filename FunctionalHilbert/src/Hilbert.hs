@@ -13,12 +13,11 @@ hilbert n = hilbert (n-1)  # rotateBy (1/4) # reflectY <> vrule 1
          <> hilbert (n-1)  # rotateBy (1/4) # reflectX
 
 
-drawHilbert n = hilbert n # strokeT # frame 1 # lc white
+drawHilbert n = hilbert n # strokeT # lc white
 
 
 drawHilbertColor n
-    = frame 1
-    $ mconcat
+    = mconcat
     $ zipWith lc =<< colors . length
     $ map (lineCap LineCapRound . strokeLocT)
     $ explodeTrail
