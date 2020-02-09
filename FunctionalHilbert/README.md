@@ -1,8 +1,7 @@
-# Functional Hilbert
-This is basic haskell realization of hilbert curve, using Diagrams package.
-Has coloured and non coloured drawing function.
+# Functional Hilbert (and Peano) Curve
+This is the basic implementation of the Hilbert curve in haskell using the Diagrams package.
 
---to add animation - [just open pdf :)](https://github.com/kanashimia/Throw-Away-Projects/blob/master/FunctionalHilbert/h-animated_compressed.pdf)
+--to add animation - [just open pdf :)](https://github.com/kanashimia/Throw-Away-Projects/blob/master/FunctionalHilbert/h-animated_compressed.pdf) or [another pdf](https://github.com/kanashimia/Throw-Away-Projects/blob/master/FunctionalHilbert/peano-animated_compressed.pdf)
 
 ### This is basically whole code for calculating hilbert curve:
 
@@ -16,11 +15,12 @@ hilbert n = hilbert (n-1)  # rotateBy (1/4) # reflectY <> vrule 1
 ```
 ### This is whole coloured drawing:
 ```
-drawHilbertColor n = (hilbert n `at` origin)
-    # explodeTrail # map (lineCap LineCapRound . strokeLocT)
-    # (zipWith lc =<< colors . length) # mconcat
+strokeFractal :: Located Fractal -> DiagramFractal b
+strokeFractal = mconcat . colourize . explodeTrail
   where
-    colors n = cycle $ map makeColor [0,360 / realToFrac n..360]
+    colourize   = (zipWith lc =<< colors . length)
+                . map (lineCap LineCapSquare . strokeLocT)
+    colors len  = cycle $ map makeColor [0, 360/realToFrac len..360]
     makeColor a = uncurryRGB sRGB $ hsv a 1 1
 ```
 
